@@ -28,7 +28,7 @@ window.onload = function () {
    gestionarXml(this);
   }
  };
- xhttp.open("GET", "xml/preguntas.xml", true);
+ xhttp.open("GET", "https://rawgit.com/isabelmartinez/FormularioExamenLM/master/examen/xml/preguntas.xml", true);
  xhttp.send();
 }
 
